@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Financial Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Financial Tracker</h1>
+    <div class="anti">
+      <lable>Description</lable>
+      <input type="text" id="description" placeholder="Description" required/>
+      <lable>Amount</lable>
+      <input type="number" id="amount" placeholder="Amount" required/>
+    </div>
+    <select id="type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <div>
+      <button id="add-transaction">Add Transaction</button>
+      <button id="clear-transactions">Clear All</button>
+    </div>
+      <table id="transaction-table">
+         <tr>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Type</th>
+          <th>Action</th>
+        </tr>
+      </table>
+      <div class="balance-summary">
+        <p>Total Income: <span id="total-income">$0.00</span></p>
+        <p>Total Expenses: <span id="total-expenses">$0.00</span></p>
+        <p>Balance: <span id="balance">$0.00</span></p>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

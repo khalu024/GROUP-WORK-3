@@ -1,0 +1,71 @@
+/* Add your desired CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: whitesmoke;   
+  }
+.container{
+  margin-top: 50px;
+  width: 50%;
+  margin: auto;
+  border: 100px;
+  border-radius: 15px;
+  background-color: rgb(193, 131, 250);
+}
+.anti{
+  display: flex;
+  float: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  width: 70%;
+}
+button{
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color:green;
+  color: white;
+}
+button:hover{
+  background-color: rgb(52, 83, 52);
+}
+
+  table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    width: 50px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.balance-summary{
+  border: 20px;
+   
+  border-radius: 10px; 
+}
